@@ -50,7 +50,7 @@ pipelines:
         configuration:
           failOnScan: false
           inputResources:
-            - name: lab1_bi_webapp_anaconda
+            - name: lab1_bi_webapp_python
               trigger: true
 
       - name: lab1_promote_bi_webapp_python
